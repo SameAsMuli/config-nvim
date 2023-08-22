@@ -1,4 +1,5 @@
 return {
+  -- MASON: install and maintain language servers
   {
     "williamboman/mason-lspconfig.nvim",
     opts = {
@@ -17,6 +18,25 @@ return {
         "stylua",
         "typescript-language-server",
         "yaml-language-server",
+      },
+    },
+  },
+
+  -- NVIM_LSPCONFIG: configure language server integration with neovim
+  {
+    "neovim/nvim-lspconfig",
+    ---@class PluginLspOpts
+    opts = {
+      servers = {
+        bashls = {},
+        clangd = {},
+        cmake = {},
+        eslint = {},
+        jsonls = {},
+        lua_ls = {},
+        pyright = {},
+        tsserver = {},
+        yamlls = {},
       },
     },
   },

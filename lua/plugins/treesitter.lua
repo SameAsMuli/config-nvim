@@ -1,4 +1,5 @@
 return {
+  -- NVIM-TREESITTER: multi-language parser used for syntax highlighting
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
