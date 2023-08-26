@@ -1,4 +1,6 @@
 return {
+  { "Civitasv/cmake-tools.nvim", enabled = false },
+
   {
     "neovim/nvim-lspconfig",
     ---@class PluginLspOpts
