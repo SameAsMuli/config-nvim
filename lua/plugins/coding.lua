@@ -1,4 +1,5 @@
 return {
+  -- NEOGEN: generate documentation tempaltes according to detected filetype
   {
     "danymat/neogen",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
